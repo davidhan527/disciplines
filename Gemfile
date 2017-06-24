@@ -29,11 +29,8 @@ gem 'webpacker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem "simple_form"
-gem "skylight"
 gem "autoprefixer-rails"
-gem "delayed_job_active_record"
 gem "flutie"
-gem "rack-canonical-host"
 gem "normalize-rails"
 
 group :development, :test do
