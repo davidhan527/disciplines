@@ -1,5 +1,8 @@
 {
   "name": "disciplines",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
 }
