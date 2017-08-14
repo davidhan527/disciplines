@@ -1,3 +1,4 @@
 class Passage < ApplicationRecord
-  belongs_to :card
+  has_many :cards
+  validates :reference, presence: true, uniqueness: true
 end
