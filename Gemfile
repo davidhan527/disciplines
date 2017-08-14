@@ -32,7 +32,6 @@ gem "simple_form"
 gem "autoprefixer-rails"
 gem "flutie"
 gem "normalize-rails"
-gem "react-rails"
 gem "httparty"
 gem "clearance"
 
