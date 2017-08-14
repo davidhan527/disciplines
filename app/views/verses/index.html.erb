@@ -1,0 +1,7 @@
+<%= form_tag('/verses/text', method: :post) do -%>
+  Verse: <%= text_field_tag 'verse' %>
+
+  <%= submit_tag 'Submit' %>
+<% end -%>
+
+<%= @text.html_safe if @text %>
