@@ -48,6 +48,7 @@ GEM
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
+    bcrypt (3.1.11)
     bindex (0.5.0)
     builder (3.2.3)
     bullet (5.6.1)
@@ -66,6 +67,10 @@ GEM
       xpath (~> 2.0)
     childprocess (0.7.1)
       ffi (~> 1.0, >= 1.0.11)
+    clearance (1.16.0)
+      bcrypt
+      email_validator (~> 1.4)
+      rails (>= 3.1)
     coderay (1.1.1)
     concurrent-ruby (1.0.5)
     connection_pool (2.2.1)
@@ -78,6 +83,8 @@ GEM
     dotenv-rails (2.2.1)
       dotenv (= 2.2.1)
       railties (>= 3.2, < 5.2)
+    email_validator (1.6.0)
+      activemodel
     erubi (1.6.1)
     execjs (2.7.0)
     factory_girl (4.8.0)
@@ -262,6 +269,7 @@ DEPENDENCIES
   bullet
   bundler-audit
   capybara
+  clearance
   database_cleaner
   dotenv-rails
   factory_girl_rails
