@@ -21,6 +21,12 @@ class VersesController < ApplicationController
       {
         key: 'IP',
         'include-footnotes': false,
+        'include-verse-numbers': false,
+        'include-headings': false,
+        'include-first-verse-numbers': false,
+        'output-format': 'plain-text',
+        'include-passage-horizontal-lines': false,
+        'include-heading-horizontal-lines': false,
       }
     end
 
